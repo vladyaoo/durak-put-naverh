@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="210" viewBox="0 0 150 210"><defs><filter id="blur4" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4"/></filter>
+<filter id="blur8" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .4  0 0 0 0 .3  0 0 0 .09 0"/></filter>
+<pattern id="lattice_b8342b" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="14" height="14" fill="#b8342b"/><path d="M0 7H14M7 0V14" stroke="#f3dfb8" stroke-width="2.5" opacity=".7"/></pattern><pattern id="lattice_2f6b4f" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="14" height="14" fill="#2f6b4f"/><path d="M0 7H14M7 0V14" stroke="#f3dfb8" stroke-width="2.5" opacity=".7"/></pattern><pattern id="lattice_1f3f7a" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="14" height="14" fill="#1f3f7a"/><path d="M0 7H14M7 0V14" stroke="#f3dfb8" stroke-width="2.5" opacity=".7"/></pattern><pattern id="tiles" width="46" height="46" patternUnits="userSpaceOnUse"><rect width="46" height="46" fill="#8fb3a8"/><rect x="2" y="2" width="42" height="42" fill="#9cc0b4"/><path d="M4,8 Q14,4 20,10" stroke="#fff" stroke-opacity=".35" stroke-width="3" fill="none"/></pattern>
+<pattern id="oilcloth" width="70" height="70" patternUnits="userSpaceOnUse"><rect width="70" height="70" fill="#efe3c4"/><rect width="35" height="35" fill="#d8644e" opacity=".22"/><rect x="35" y="35" width="35" height="35" fill="#d8644e" opacity=".22"/>
+<g transform="translate(35,35)"><circle r="7" fill="#e9b93a"/><circle cx="0" cy="-11" r="6" fill="#fff"/><circle cx="0" cy="11" r="6" fill="#fff"/><circle cx="-11" cy="0" r="6" fill="#fff"/><circle cx="11" cy="0" r="6" fill="#fff"/><circle r="5" fill="#e9b93a"/></g></pattern>
+<pattern id="curtain" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#e9d6a3"/><circle cx="10" cy="10" r="5" fill="#d07a4e"/><circle cx="30" cy="30" r="5" fill="#7aa36a"/></pattern><radialGradient id="vign" cx="800" cy="330" r="760" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#1a0d06" stop-opacity="0"/><stop offset=".38" stop-color="#1a0d06" stop-opacity=".1"/>
+<stop offset=".68" stop-color="#1a0d06" stop-opacity=".62"/><stop offset="1" stop-color="#1a0d06" stop-opacity="0.78"/></radialGradient>
+<radialGradient id="glow" cx="800" cy="330" r="456.0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ffc670" stop-opacity=".55"/><stop offset="1" stop-color="#ffc670" stop-opacity="0"/></radialGradient></defs><g transform="translate(70,100) rotate(0)">
+<rect x="-60.0" y="-85.0" width="130.0" height="186.0" rx="14.0" fill="#000" opacity=".28" filter="url(#blur4)"/>
+<rect x="-65.0" y="-93.0" width="130.0" height="186.0" rx="14.0" fill="#f6ecd4" stroke="#3a2418" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="-57.0" y="-85.0" width="114.0" height="170.0" rx="9.0" fill="none" stroke="#c0302a" stroke-opacity=".25" stroke-width="2.0"/>
+<text x="-53.0" y="-55.0" font-family="Arial Black" font-size="32.0" fill="#c0302a">В</text>
+<text x="-53.0" y="-25.0" font-family="Arial" font-size="28.0" fill="#c0302a">♦</text>
+<text x="0" y="30.0" text-anchor="middle" font-family="Arial" font-size="86.0" fill="#c0302a" stroke="#3a2418" stroke-width="2.0">♦</text>
+</g></svg>
